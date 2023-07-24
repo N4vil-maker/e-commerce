@@ -1,2 +1,3 @@
 # e-commerce
-pagina web ficticia 
+#pagina web cafeteria de especialidad 
+#primer proyecto
