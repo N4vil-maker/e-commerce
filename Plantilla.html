@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no", maximum-scale="1", user-scalable="no">
+        <title>Plantilla1</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Glory:wght@200&family=Unbounded:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <style>
+            body {
+                margin: 0%;
+                font-family: 'Glory', sans-serif;
+
+
+            }
+            h1,h2,h3,h4,h5 {
+                font-family: 'Ysabeau SC', sans-serif;
+
+            }
+            .cover {
+                height: 500px;
+                color:white;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                font-size: 32px;
+                background-image:url(https://live.staticflickr.com/65535/53022166377_51489d02b3_z.jpg);
+                background-blend-mode:darken;
+                background-size:cover;
+            
+            }
+            .card-title {
+                min-height:2.5rem;
+                
+            }
+            .card-text {
+                min-height:10rem;
+
+            }
+            .cover-small {
+                height: 200px;
+                background-blend-mode: darken;
+                
+            }
+            .image-container {
+                max-width: 100%;
+                height: auto;
+            }
+                
+
+            .product-stripe {
+                display: flex;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                height: auto;
+                width: 100%;
+                
+            }
+            .card-img-top {
+                width: 100%;
+                height: auto;
+            }
+            .responsive-iframe {
+                position: relative;
+                padding-top: 56.25%;
+            }
+            .responsive-iframe iframe{
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                width: 100%;
+                height: 100%;
+
+            }
+
+
+
+        </style>
+        <script>
+            window.addEventListener("load", function() {
+              if (navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) {
+                var images = document.getElementsByTagName("img");
+                for (var i = 0; i < images.length; i++) {
+                  images[i].setAttribute("src", images[i].getAttribute("src"));
+                }
+              }
+            });
+        </script>
+
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <header>
+            <nav class="navbar" style="background-color: #e3f2fd;">
+                <a class="navbar-brand" href="#">LOGO</a>
+            
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="Plantilla.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#mapa">Ubicacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stripe">Menú</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> 
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="acercade.html.html">Quienes somos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#mapa">Donde estamos</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Contactanos</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </nav>
+            <div class="cover d-flex justify-content-center align-items-md-center flex-column mb-3">
+                <h1>Cafe de especialidad</h1>
+                <p>El cafe de montañas traido directamente hasta tu taza</p>
+                <button type="button" class="btn btn-dark">Conseguila acá</button>
+                <a href="#"></a>
+            </div> 
+
+        </header>
+
+        <section>
+            <div class="container mt-5 mb-5">
+                <div class="row justify-content-center mt-2">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mx-3">
+                        <div class="card rounded-lg" style="width: 18rem;">
+                                <div class="cover cover-small" style="background-image:url(https://live.staticflickr.com/65535/53023224098_5df81d5ea8_z.jpg)">
+                                    
+                                </div>
+                                
+                            <div class="card-body">
+                                <center><h5  class="card-title">Cultivo ecologico</h5></center>
+                                <p class="card-text">El suelo semillas y tratamientos estan en dialogo acorde a las atenciones ecologicas de la region.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                
+
+
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mx-3">
+                        <div class="card rounded-lg" style="width: 18rem;">
+                            <div class="cover cover-small" style="background-image:url(https://live.staticflickr.com/65535/53022908479_fa50dd63f6_z.jpg)">
+                            
+                            </div>
+                                
+                            <div class="card-body">
+                                <center><h5  class="card-title">Cultivo ecologico</h5></center>
+                                <p class="card-text">El suelo semillas y tratamientos estan en dialogo acorde a las atenciones ecologicas de la region.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mx-3">
+                        <div class="card rounded-lg" style="width: 18rem;">
+                            <div class="cover cover-small" style="background-image:url(https://live.staticflickr.com/65535/53022757416_20f4db9e91_z.jpg)">
+                            </div> 
+                            
+                               
+                            <div class="card-body">
+                                <center><h5 class="card-title">Cultivo ecologico</h5></center>
+                                <p class="card-text">El suelo semillas y tratamientos estan en dialogo acorde a las atenciones ecologicas de la region.</p>
+                            </div>
+                        </div>
+                    </div>    
+                    
+
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid mt-5 mb-5">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        
+                        <img src="data:image/png;base64,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"
+                        alt="icono taza de Cafe"  class="img-fluid">
+                        
+                       
+                    </div>
+                    
+                    <div class="col-12 col-sm-6">
+                        <justify><h2>Inicia tu dia con una taza de cafe dejando tu email acá</h2></justify>
+                        <p>Ordena tu bolsa de cafe a domicilio</p>
+                        <a href="#mapa">Ir al mapa</a>
+
+                    </div>
+                </div>
+
+                <form action="">
+                    <label for="email">Correo electronico</label>
+                    <div class="d-flex">
+                        <div class="flex-fill mr-2">   
+                        
+                            
+                            <input type="email" id="email" class="form-control" />
+                        
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            send
+                        </button>
+
+                    </div>
+                </form>
+
+              
+            </div>
+
+
+        </section>
+
+        <section>
+            <div class="container" id="stripe">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="product-stripe mb-4">
+                            <div class="product col-4 m-2">
+                                <div class="card border">
+                                    <img src="https://live.staticflickr.com/65535/53023128825_ef56f44acd.jpg" 
+                                    alt="taza de cafe" class="card-img-top">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Espresso</h3>
+                                        <span class="badge text-bg-dark">$10</span>
+                                    </div>
+                                </div>
+                            </div>
+                                    
+                            <div class="product col-4 m-2">
+                                <div class="card border">
+                                    <img src="https://live.staticflickr.com/65535/53022301377_92d1435897_w.jpg" 
+                                    alt="cafetera de vidrio marca chemex con cafe dentro" class="card-img-top">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Chemex</h3>
+                                        <span class="badge text-bg-dark">$15</span>
+                                    </div>
+                                </div>
+                            </div>                                
+                            <div class="product col-4 m-2">
+                                <div class="card border">
+                                    <img src="https://live.staticflickr.com/65535/53022908404_571c72e513_w.jpg">
+                                    alt="Bolsa de granos de cafe" class="card-img-top">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Bolsa Cafe 500gs</h3>
+                                        <span class="badge text-bg-dark">$25</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container" id="mapa">
+                <h4>Aqui nos vemos</h4>
+                <p>
+                    Plaza Moma, Avda 1, Buenos Aires, La Plata
+                </p>
+                <div class="responsive-iframe">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.448871102254!2d-57.931167924640086!3d-34.92027787284242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e61d269bcd9b%3A0x17cfb0a7476bee4b!2sPlaza%20Matheu!5e0!3m2!1ses!2sar!4v1688319777101!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+
+
+
+        </section>
+
+    </body>
+</html>
+
